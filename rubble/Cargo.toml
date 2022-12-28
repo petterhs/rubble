@@ -8,7 +8,7 @@ readme = "../README.md"
 license = "0BSD"
 name = "rubble"
 version = "0.0.4"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 bitflags = "1.2.1"
@@ -16,7 +16,7 @@ heapless = "0.7.1"
 rand_core = "0.6.3"
 sha2 = { version = "0.10.6", default-features = false }
 zerocopy = "0.6.1"
-defmt = "0.3.2"
+defmt = { git = "https://github.com/knurling-rs/defmt" }
 
 [dependencies.p256]
 version = "0.9.0"
